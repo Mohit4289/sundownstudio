@@ -440,3 +440,116 @@ nav {
   height: 120vh;
   width: 100%;
 }
+
+
+/* For screens smaller than 1024px (tablets and smaller desktops) */
+@media screen and (max-width: 1024px) {
+  #center h1 {
+    font-size: 8vw;
+    line-height: 6vw;
+  }
+  
+  #nav-part2 h4 {
+    font-size: 16px;
+  }
+
+  #moving-text h1 {
+    font-size: 7vw;
+  }
+
+  #page2-bottom h1 {
+    font-size: 3vw;
+  }
+
+  #bottom-part2 {
+    width: 35%;
+  }
+
+  #left h3 {
+    width: 40vw;
+    font-size: 1.5vw;
+  }
+
+  #footer h1 {
+    font-size: 18vw;
+  }
+}
+
+/* For screens smaller than 768px (large smartphones) */
+@media screen and (max-width: 768px) {
+  #center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #center h1 {
+    font-size: 10vw;
+    line-height: 7vw;
+  }
+
+  #left h3 {
+    width: 60vw;
+    font-size: 2.5vw;
+  }
+
+  #nav-part2 h4 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  #moving-text h1 {
+    font-size: 6vw;
+  }
+
+  #bottom-part2 {
+    width: 45%;
+    margin-top: 15vw;
+  }
+
+  #footer h1 {
+    font-size: 20vw;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* For screens smaller than 480px (small smartphones) */
+@media screen and (max-width: 480px) {
+  #nav-part2 h4 {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  #center h1 {
+    font-size: 12vw;
+    line-height: 9vw;
+  }
+
+  #left h3 {
+    font-size: 3vw;
+    width: 70vw;
+  }
+
+  #moving-text h1 {
+    font-size: 5vw;
+  }
+
+  #bottom-part2 {
+    width: 60%;
+  }
+
+  #footer h1 {
+    font-size: 25vw;
+  }
+  
+  .content {
+    gap: 10px;
+  }
+
+  #page2-bottom h1 {
+    font-size: 4vw;
+  }
+}
